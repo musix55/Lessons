@@ -26,7 +26,7 @@ const IndexPage: NextPage<Props> = ({ initialImageUrl }) => {
 
     return (
         <div className={styles.page}>
-            <button onClick={handleClick}>他のにゃんこも見る</button>
+            <button onClick={handleClick}>One more cat!</button>
             <div className={styles.frame}>{loading || <img src={imageurl} />}</div>
         </div>
     );
